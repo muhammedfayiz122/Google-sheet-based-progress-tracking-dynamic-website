@@ -1,1 +1,1 @@
-create a folder in this folder of agnitus cs and name it as your refferal id,and dont forget set is as editable and viewable to you and agnitus onlyDynamic progress tracking website using google sheet as backend, using google app script
+Dynamic progress tracking website using google sheet as backend, using google app script
