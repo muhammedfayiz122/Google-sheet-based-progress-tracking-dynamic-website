@@ -1,23 +1,16 @@
-Dynamic progress tracking website using google sheet as backend, using google app script
-
-![alt text](image.png)
-design google sheet like this, you can add or modify any row or headings or any thing.but , you to keep no.of columns constant as in this image.last row must specified for grand totals.
-
-Deploy app script:
-
-1)then click extensions tab from top of google sheet -> app script \n
-2)on code.gs page , paste code as in the "google_app_script.gs" page in this repository.
-3)click on deploy on top right corner
-4)if you didnt deployed anything , then click on new deployment , other wise manage deployment
-5)if new deployment :
-    5.1) select type as web app
-    5.2) who as access -> anyone
-    5.3) copy that deployment id and paste in "google_app_script.gs" in mentioned line
-    5.4) click deploy to complete deployment
-  if manage deployment :
-    5.1) click on pencil button to edit details
-    5.2) change version to new version
-    5.3) copy that deployment id and paste in "google_app_script.gs" in mentioned line
-    5.4) click deploy to complete deployment
-6)ensure that you pasted deployment id in "google_app_script.gs" on mentioned part.
-7)then , you are good to go
+1. Then click the **Extensions** tab from the top of the Google Sheet -> **Apps Script**.
+2. On the `Code.gs` page, paste the code as in the `"google_app_script.gs"` page in this repository.
+3. Click on **Deploy** on the top right corner.
+4. If you haven’t deployed anything yet, click on **New deployment**, otherwise, click **Manage deployment**.
+    - **If New Deployment**:
+        1. Select type as **Web app**.
+        2. Under **Who has access**, select **Anyone**.
+        3. Copy the deployment ID and paste it in the `"google_app_script.gs"` in the mentioned line.
+        4. Click **Deploy** to complete the deployment.
+    - **If Managing an Existing Deployment**:
+        1. Click on the pencil button to edit details.
+        2. Change the version to a new version.
+        3. Copy the deployment ID and paste it in the `"google_app_script.gs"` in the mentioned line.
+        4. Click **Deploy** to complete the deployment.
+5. Ensure that you pasted the deployment ID in `"google_app_script.gs"` at the mentioned part.
+6. You’re good to go!
