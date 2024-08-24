@@ -5,7 +5,7 @@ design google sheet like this, you can add or modify any row or headings or any 
 
 Deploy app script:
 
-1)then click extensions tab from top of google sheet -> app script
+1)then click extensions tab from top of google sheet -> app script \n
 2)on code.gs page , paste code as in the "google_app_script.gs" page in this repository.
 3)click on deploy on top right corner
 4)if you didnt deployed anything , then click on new deployment , other wise manage deployment
