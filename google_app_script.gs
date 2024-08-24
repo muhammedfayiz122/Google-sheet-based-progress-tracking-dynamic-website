@@ -5,10 +5,10 @@ function doPost() {
     const last =  dataRange.length-1
     const response = {
       limit : dataRange.length-1,
-      total_name: dataRange[last][0],
-      total_total: dataRange[last][1],
-      total_finsihed: dataRange[last][2],
-      total_percentage: dataRange[last][4],
+      total_name : dataRange[last][0],
+      total_total : dataRange[last][1],
+      total_finsihed : dataRange[last][2],
+      total_percentage : dataRange[last][4],
     };
 
     for (let i = 1; i < dataRange.length-1; i++) {
